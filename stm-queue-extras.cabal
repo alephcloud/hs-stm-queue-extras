@@ -8,6 +8,7 @@ name:                stm-queue-extras
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
 version:             0.1.0.0
+x-revision: 1
 
 -- A short (one-line) description of the package.
 synopsis:            Extra queue utilities for STM
@@ -29,11 +30,14 @@ author:              Jon Sterling
 maintainer:          jon@jonmsterling.com
 
 -- A copyright notice.
--- copyright:
+copyright:           Copyright (c) 2014 AlephCloud, Inc.
+
+
 
 category:            Concurrency
 
 build-type:          Simple
+
 
 -- Extra files to be distributed with the package, such as examples or a
 -- README.
@@ -41,6 +45,11 @@ build-type:          Simple
 
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
+
+
+source-repository head
+    type: git
+    location: https://github.com/alephcloud/hs-stm-queue-extras.git
 
 
 library
@@ -63,4 +72,5 @@ library
 
   -- Base language which the package is written in.
   default-language:    Haskell2010
+
 
