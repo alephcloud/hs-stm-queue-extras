@@ -28,7 +28,7 @@ library
   exposed-modules:     Control.Concurrent.STM.Queue,
                        Control.Concurrent.STM.BoundedQueue
                        Control.Concurrent.STM.CloseableQueue
-  build-depends:       base >=4.7 && <4.8,
+  build-depends:       base >=4.7 && <5.0,
                        stm >= 2.4.3,
                        stm-chans >= 3.0.0.2
   hs-source-dirs:      src
